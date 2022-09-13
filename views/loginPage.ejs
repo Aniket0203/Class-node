@@ -1,0 +1,71 @@
+<%-include('common/header')%>
+
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+
+            <h1>Login</h1>
+ <form id="login-form">
+     <ul>
+         <li>Email</li>
+         <li>
+             <input type="text" name="useremail"
+             class="form-control"/>
+         </li>
+         <li>Password</li>
+         <li>
+             <input type="text" name="userpassword"
+             class="form-control"/>
+         </li>
+         <li>
+             <input type="button"  id="login-btn" value="register" />
+         </li>
+     </ul>
+ </form>
+ <p id="err_msg_login"></p>
+
+
+
+
+
+
+        </div>
+        <div class="col-6">
+            <h1>Register</h1>
+
+            <form id="register-form">
+                <ul>
+                    <li>name</li>
+                    <li>
+                        <input type="text" name="username" class="form control"/>
+                    </li>
+                    <li>Mobile</li>
+                    <li>
+                        <input type="text" name="usermobile" class="form control"/>
+                    </li>
+                    <li>Email</li>
+                    <li>
+                        <input type="text" name="useremail" class="form control"/>
+                    </li>
+                    <li>Password</li>
+                    <li>
+                        <input type="text" name="userpassword" class="form control"/>
+                    </li>
+                    <li>confirmPasswprd</li>
+                    <li>
+                        <input type="text" name="userCpassword" class="form control"/>
+                    </li>
+                    <li>
+                        <input type="button"  id="register-btn" value="register"/>
+                    </li>
+                </ul>
+            </form>
+                 <p id="err_msg_register"></p>
+
+        </div>
+
+    </div>
+</div>
+
+<%-include('common/footer')%>
+
